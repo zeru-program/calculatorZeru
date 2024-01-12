@@ -1,0 +1,139 @@
+@media screen and (max-width: 368px) {
+  .dop-output {
+    height: 40.5vh;
+  }
+  
+  .angka,
+  .operator,
+  .operatorGbg {
+    font-size: .85em;
+    padding: 20px;
+  }
+  .open {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 368px) {
+    .angka::before {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .angka::after {
+    inset: 2px;
+  }
+  
+  .operatorGbg::before {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .operatorGbg::after {
+    inset: 2px;
+  }
+  .open {
+    margin-bottom: 80px;
+  }
+  }
+
+@media screen and (min-width: 568px) {
+  
+  .angka,
+  .operator,
+  .operatorGbg {
+    font-size: 1.7em;
+  }
+    .angka::before {
+    width: 230px;
+    height: 230px;
+  }
+  
+  .angka::after {
+    inset: 5px;
+  }
+  
+  .operatorGbg::before {
+    width: 230px;
+    height: 230px;
+  }
+  
+  .operatorGbg::after {
+    inset: 5px;
+  }
+  .open {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .display {
+    font-size: 2.5em;
+  }
+  
+  .angka,
+  .operator,
+  .operatorGbg {
+    font-size: 2.5em;
+  }
+  .angkaKurung {
+    padding: 80px;
+  }
+  
+  .angka::before {
+    width: 330px;
+    height: 330px;
+  }
+  
+  .angka::after {
+    inset: 5px;
+  }
+  
+  .operatorGbg::before {
+    width: 330px;
+    height: 330px;
+  }
+  
+  .operatorGbg::after {
+    inset: 5px;
+  }
+  .open {
+    margin-bottom: 200px;
+  }
+}
+
+@media screen and (min-width: 1084px) {
+  .display {
+    font-size: 2.5em;
+  }
+  
+  .angka,
+  .operator,
+  .operatorGbg {
+    font-size: 2.5em;
+  }
+  .angkaKurung {
+    padding: 80px;
+  }
+  
+  .angka::before {
+    width: 330px;
+    height: 330px;
+  }
+  
+  .angka::after {
+    inset: 5px;
+  }
+  
+  .operatorGbg::before {
+    width: 330px;
+    height: 330px;
+  }
+  
+  .operatorGbg::after {
+    inset: 5px;
+  }
+  .open {
+    margin-bottom: 200px;
+  }
+}
