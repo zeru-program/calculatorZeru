@@ -1,0 +1,27 @@
+
+# start .gitiatributes
+
+
+# Menentukan cara Git menangani newline
+*.txt eol=lf
+
+# Menetapkan bahasa pemrograman untuk file tertentu
+*.c linguist-language=C
+*.cpp linguist-language=C++
+*.py linguist-language=Python
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+*.js diff=javascript
+*.jsx diff=react
+
+# Mengabaikan perubahan whitespace pada semua file
+* -whitespace
+
+# Menetapkan properti khusus untuk file tertentu
+example.txt custom-property=value
+
+
+# stop .gitiatributes
+
